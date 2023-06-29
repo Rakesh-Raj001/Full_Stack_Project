@@ -1,0 +1,48 @@
+.nav{
+    justify-content: space-between;
+    margin: 20px;
+    background-color: rgb(249, 231, 201);
+}
+h1{
+   color: rgb(255, 0, 0); 
+}
+ul{
+    color: rgb(235, 179, 111);
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 0px;
+}
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.find input {
+    flex: 1;
+    border: 1px solid blue;
+    border-right: 0px;
+    height: 30px;
+    margin-top: 10px;
+    
+  
+}
+
+.find button {
+    border: 1px solid blue;
+    border-left: 0px;
+    height: 29.9px;
+    margin-top: 10px;
+ }
+ 
+ .find{
+    display: flex;
+ }
+
+ 
+
